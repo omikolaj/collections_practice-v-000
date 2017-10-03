@@ -18,3 +18,8 @@ def swap_elements(arr)
   arr[1], arr[2] = arr[2], arr[1]
   return arr
 end
+
+def swap_elements_from_to(arr, index, destination_index)
+  arr[index] = arr[destination_index]
+  return arr
+end
