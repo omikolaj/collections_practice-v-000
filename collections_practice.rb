@@ -28,6 +28,7 @@ def reverse_array(arr)
   i = 0
   while(i < arr.length-1)
     arr[i] = arr[arr.length-i]
+    i+=1
   end
   return arr
 end
