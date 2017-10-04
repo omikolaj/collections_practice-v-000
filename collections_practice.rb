@@ -36,5 +36,9 @@ def kesha_maker(arr)
     newarr << char.join
   end
   return newarr
-
 end
+
+def find_a (arr)
+    arr.select do |e| e.include("a")
+    end
+  end
