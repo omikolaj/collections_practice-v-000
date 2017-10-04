@@ -25,6 +25,8 @@ def swap_elements_from_to(arr, index, destination_index)
 end
 
 def reverse_array(arr)
-  arr.reverse()
-  return arr
+  counter = 0
+  while(counter < arr.length-1)
+    arr[i] = arr[arr.length-i]
+    return arr;
 end
