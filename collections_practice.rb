@@ -25,6 +25,6 @@ def swap_elements_from_to(arr, index, destination_index)
 end
 
 def reverse_array(arr)
-  arr.reverse
+  arr.reverse()
   return arr
 end
