@@ -53,5 +53,4 @@ def add_s(arr)
       if(!arr[index] == 2)
         arr[index] = element + "s"
       end
-    end
 end
