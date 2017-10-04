@@ -50,8 +50,9 @@ end
 
 def add_s(arr)
     arr.each_with_index.collect do |element, index|
-      arr[1] = arr[1]
+      if (arr[index] == 1)
+          arr[1] = arr[1]
+      end
       arr[index] = element + "s"
     end
-
 end
