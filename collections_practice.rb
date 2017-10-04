@@ -31,7 +31,7 @@ end
 def kesha_maker(arr)
   newarr=[]
   arr.each do |word|
-    char = word.to_a
+    char = word.split('')
     char[2] = "$"
     newarr << char.join
   end
