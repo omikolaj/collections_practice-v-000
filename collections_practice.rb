@@ -41,4 +41,4 @@ end
 def find_a (arr)
     arr.select do |e| e.include("a")
     end
-  end
+end
