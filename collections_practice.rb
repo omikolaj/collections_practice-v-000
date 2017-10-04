@@ -54,6 +54,6 @@ def add_s(arr)
         arr[index] = element + "s"
         binding.pry
       end
-      return arr
     end
+    return arr
 end
