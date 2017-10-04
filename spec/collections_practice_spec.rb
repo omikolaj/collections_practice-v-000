@@ -39,7 +39,7 @@ describe 'collections practice' do
   # Advanced
   describe '#swap_elements_from_to' do
     it 'swap the index and destination index elements of an array' do
-      expect(swap_elements_from_to(["blake", "ashley", "scott"], 2, 1)).to eq(["scott", "blake", "ashley"])
+      expect(swap_elements_from_to(["blake", "ashley", "scott"], 2, 1)).to eq(["blake", "scott", "ashley"])
     end
   end
 
