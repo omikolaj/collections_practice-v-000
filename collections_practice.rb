@@ -28,7 +28,9 @@ def reverse_array(arr)
   i = 0
   while(i < arr.length)
     arr[i], arr[arr.length-1] = arr[arr.length-1], arr[i]
+    binding.pry
     i+=1
+
   end
   return arr
 end
