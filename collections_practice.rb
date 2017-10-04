@@ -34,5 +34,7 @@ def kesha_maker(arr)
     char = word.to_a
     char[2] = "$"
     newarr << char.join
+  end
+  return newarr
 
 end
