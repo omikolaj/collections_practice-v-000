@@ -42,3 +42,8 @@ def find_a (arr)
     arr.select do |e| e.start_with?("a")
     end
 end
+
+def sum_array(arr)
+  arr.inject do |sum, e| sum + e
+  end
+end
